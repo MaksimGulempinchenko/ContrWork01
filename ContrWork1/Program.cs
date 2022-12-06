@@ -19,3 +19,7 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+string[] arrayText1 = new string[3] {"Russian", "437", "hello"};
+string [] finishArray = NewTextArray(arrayText1);
+PrintArray(arrayText1);
+PrintArray(finishArray);
